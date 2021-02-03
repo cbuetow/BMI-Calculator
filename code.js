@@ -43,6 +43,7 @@ $(document).ready(
                 alert("Please fill in boxes correctly");
                 return;
             }
+
             // output message toFixed(1)
             let outputMessage = `Your BMI is ${finalBmi.toFixed(1)} which means you are ${desc}`;
             $("p#result").text(outputMessage);
